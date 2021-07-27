@@ -1,16 +1,20 @@
 {
-  "name": "client-server",
+  "name": "@dev-demands/root",
   "version": "1.0.0",
   "description": "",
-  "main": "src/main.js",
-  "dependencies": {
-    "esm": "^3.2.25"
-  },
+  "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node -r esm ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andremiani/GraphQL.git"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andremiani/GraphQL/issues"
+  },
+  "homepage": "https://github.com/andremiani/GraphQL#readme"
 }
